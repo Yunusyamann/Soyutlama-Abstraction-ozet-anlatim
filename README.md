@@ -10,14 +10,7 @@ ufak bir örnek:
 #include <iostream>
 using namespace std;
 
-class Araba {
-private:
-    string marka;
-    string model;
-    int hiz;
-    int yakitSeviyesi;
-
-public:
+    <pre style=”background-color: darkgrey; border: 2px dashed rgb(235, 243, 251); overflow: auto; padding: 5px; text-align: justify; width: 569.633px;”>public:
     Araba(string marka, string model) {
         this->marka = marka;
         this->model = model;
@@ -48,7 +41,15 @@ int main() {
     myCar.YakitSeviyesiniGoster();
 
     return 0;
-}
+}</pre>
+class Araba {
+private:
+    string marka;
+    string model;
+    int hiz;
+    int yakitSeviyesi;
+
+
   
   Bu örnekte, "Araba" sınıfı marka, model, hız ve yakıt seviyesi gibi özellikleri içerir. "HareketEt" işlevi arabanın hızını artırır ve yakıt seviyesini azaltır. "FrenYap" işlevi arabanın hızını sıfıra ayarlar. "YakitSeviyesiniGoster" işlevi ise arabın yakıt seviyesini ekrana yazdırır.
 
