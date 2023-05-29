@@ -1,0 +1,1 @@
+# Soyutlama-Abstraction-ozet-anlatim
