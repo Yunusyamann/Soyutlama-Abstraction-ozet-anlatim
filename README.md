@@ -9,10 +9,18 @@ Bu durumda, soyutlama devreye girer. Arabayı temsil etmek için bir sınıf olu
 ufak bir örnek: 
 
 
-<pre style=”background-color: darkgrey; border: 2px dashed rgb(235, 243, 251); overflow: auto; padding: 5px; text-align: justify; width: 569.633px;”>public:
+<pre style=”background-color: darkgrey; border: 2px dashed rgb(235, 243, 251); overflow: auto; padding: 5px; text-align: justify; width: 569.633px;”>#include <iostream>
+using namespace std;
+
+class Araba {
+private:
+    string marka;
+    string model;
+    int hiz;
+    int yakitSeviyesi;
+
+public:
     Araba(string marka, string model) {
-    #include <iostream>
-    using namespace std;
         this->marka = marka;
         this->model = model;
         hiz = 0;
@@ -42,13 +50,9 @@ int main() {
     myCar.YakitSeviyesiniGoster();
 
     return 0;
+}
 }</pre>
-class Araba {
-private:
-    string marka;
-    string model;
-    int hiz;
-    int yakitSeviyesi;
+
 
 
   
