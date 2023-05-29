@@ -7,11 +7,12 @@ Bu durumda, soyutlama devreye girer. Arabayı temsil etmek için bir sınıf olu
 
 
 ufak bir örnek: 
-#include <iostream>
-using namespace std;
 
-    <pre style=”background-color: darkgrey; border: 2px dashed rgb(235, 243, 251); overflow: auto; padding: 5px; text-align: justify; width: 569.633px;”>public:
+
+<pre style=”background-color: darkgrey; border: 2px dashed rgb(235, 243, 251); overflow: auto; padding: 5px; text-align: justify; width: 569.633px;”>public:
     Araba(string marka, string model) {
+    #include <iostream>
+    using namespace std;
         this->marka = marka;
         this->model = model;
         hiz = 0;
